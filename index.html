@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="result">
+            <h4><strong><span id="generatedName"></span></strong></h4>
+        </div>
+
+        <div id="form-main">
+        <div id="form-div">
+            <form class="form" id="akanForm">
+                <p class="name">
+                    <input name="birthDate" type="date" placeholder="Birth Date" id="birthDate" required/>
+                </p>
+
+                    <label>Male
+                        <input name="gender" type="radio"  id="male" value="male" />
+                    </label>
+                    <label>Female
+                        <input name="gender" type="radio"  id="female" value="female" />
+                    </label>
+
+                <div class="submit">
+                    <button class="button-blue" onclick="generateAkana()">Generate</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
